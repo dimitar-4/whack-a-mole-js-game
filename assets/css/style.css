@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica', sans-serif;
+}
+
+.wrapper {
+    border: 3px solid #010124;
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url('/assets/images/game-background.png');
+    overflow: hidden;
+}
+
+.score {
+    font-size: 150px;
+    color: #010124;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 100px;
+    text-align: center;
+}
+
+.countdown {
+    position: absolute;
+    top: 490px;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    color: #010124;
+}
+
+button {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background: #010124;
+    color: white;
+    padding: 20px 50px;
+    border-radius: 5px;
+    z-index: 200;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
