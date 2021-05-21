@@ -6,6 +6,8 @@
 
 body {
     font-family: 'Helvetica', sans-serif;
+    background: url('/assets/images/bg-image.jpg');
+    background-repeat: no-repeat;
 }
 
 .wrapper {
